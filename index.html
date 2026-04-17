@@ -3,90 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore the creative world of Peter Gedeon, showcasing a collection of unique web projects that combine artistry, innovation, and craftsmanship.">
-    <meta name="keywords" content="Peter Gedeon, web projects, creative portfolio, handcrafted art, custom ceramics, murals, logos, illustrations, handmade pottery, unique designs, photography, projection mapping, macro photography, professional film studio, photo studio rental, Richmond VA, video production services, image optimization, WebP conversion, SEO tools, keyword synergy analyzer, free SEO tools">
-    <title>Peter Gedeon's Portfolio</title>
+    <meta name="description" content="Peter Gedeon — Developer, sailor, and 3D printing enthusiast. Building tools for sailors and makers.">
+    <meta name="keywords" content="Peter Gedeon, sailing, 3D printing, yacht specs, sailboats, filament settings, web developer">
+    <title>Peter Gedeon — Projects</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-            color: #333;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        .project {
-            margin: 20px 0;
-        }
-        .project h2 {
-            color: #007BFF;
-            margin-bottom: 10px;
-        }
-        .project p {
-            margin: 0 0 10px;
-        }
-        .project a {
-            color: #007BFF;
-            text-decoration: none;
-        }
-        .project a:hover {
-            text-decoration: underline;
-        }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0a; margin: 0; padding: 40px 20px; color: #e0e0e0; }
+        .container { max-width: 800px; margin: auto; }
+        h1 { font-size: 2.5em; margin-bottom: 0.3em; color: #fff; }
+        .tagline { color: #888; font-size: 1.1em; margin-bottom: 2em; }
+        .projects { display: flex; flex-direction: column; gap: 24px; }
+        .project { background: #141414; border: 1px solid #222; border-radius: 12px; padding: 24px; transition: border-color 0.2s; }
+        .project:hover { border-color: #333; }
+        .project h2 { margin: 0 0 8px; font-size: 1.3em; }
+        .project h2 a { color: #4ea1ff; text-decoration: none; }
+        .project h2 a:hover { text-decoration: underline; }
+        .project .domain { color: #666; font-size: 0.9em; margin-bottom: 12px; }
+        .project p { margin: 0; color: #aaa; line-height: 1.6; }
+        .project .tags { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 6px; }
+        .project .tags span { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 6px; padding: 2px 10px; font-size: 0.8em; color: #888; }
+        footer { margin-top: 3em; text-align: center; color: #444; font-size: 0.85em; }
+        footer a { color: #666; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to Peter Gedeon's Portfolio</h1>
-        <p>Discover a curated selection of my web projects, each crafted with a passion for creativity and attention to detail. Click on the links below to explore each project and learn more about the inspiration and craftsmanship behind them.</p>
-        
-        <div class="project">
-            <h2><a href="https://thecraftyfoxbox.com" target="_blank">The Crafty Fox</a></h2>
-            <p>Bringing Joy to Every Space with Vibrant, Whimsical Hand-Painted Pottery.</p>
-            <p><strong>SEO Description:</strong> The Crafty Fox offers unique, handcrafted pottery that blends whimsy with functionality. Explore our custom-made ceramics, murals, logos, and illustrations. Visit our online store to shop colorful, chonky pottery that adds personality to any space.</p>
-            <p><strong>Keywords:</strong> handcrafted pottery, custom ceramics, whimsical art, colorful pottery, murals, logos, illustrations, handmade art, unique designs, online pottery shop.</p>
+        <h1>Peter Gedeon</h1>
+        <p class="tagline">Building tools for sailors and makers.</p>
+
+        <div class="projects">
+            <div class="project">
+                <h2><a href="https://info.sailboats.fr" target="_blank">Sailing Yacht Database</a></h2>
+                <div class="domain">info.sailboats.fr</div>
+                <p>Search and compare 200+ sailing yacht specifications from 50+ manufacturers. Side-by-side comparisons, detailed specs, and advanced filtering for sailors researching their next boat.</p>
+                <div class="tags"><span>Next.js</span><span>PostgreSQL</span><span>Drizzle ORM</span><span>Vercel</span></div>
+            </div>
+
+            <div class="project">
+                <h2><a href="https://sailboats.fr" target="_blank">Sailboats.fr</a></h2>
+                <div class="domain">sailboats.fr</div>
+                <p>Sailing guides, gear reviews, and cruising itineraries. Expert content covering navigation, safety equipment, anchoring, and Mediterranean cruising routes.</p>
+                <div class="tags"><span>WordPress</span><span>PHP</span><span>SEO</span><span>Affiliate</span></div>
+            </div>
+
+            <div class="project">
+                <h2><a href="https://3dput.com" target="_blank">3DPUT — 3D Printing Tools</a></h2>
+                <div class="domain">3dput.com</div>
+                <p>Comprehensive 3D printing filament settings database and printer comparison tool. Find optimal print settings for any printer and filament combination, plus guides and reviews.</p>
+                <div class="tags"><span>WordPress</span><span>Python</span><span>3D Printing</span><span>FDM</span></div>
+            </div>
+
+            <div class="project">
+                <h2><a href="https://null.pictures" target="_blank">Null Pictures</a></h2>
+                <div class="domain">null.pictures</div>
+                <p>Photography portfolio — macro photography, abandoned places, and projection mapping art.</p>
+                <div class="tags"><span>Photography</span><span>Art</span></div>
+            </div>
         </div>
 
-        <div class="project">
-            <h2><a href="https://null.pictures" target="_blank">Null Pictures</a></h2>
-            <p>Just existing barely living.</p>
-            <p><strong>SEO Description:</strong> Null Pictures is an artist's portfolio showcasing a stunning collection of photography, stock images, and footage for projection mapping. From macro photography of insects to abandoned landscapes in France, Null Pictures captures the haunting beauty of forgotten places and the intricate details of nature.</p>
-            <p><strong>Keywords:</strong> photography portfolio, stock images, projection mapping, macro photography, abandoned places, nature photography, artistic photography, Paris, France, insects, detailed photography.</p>
-        </div>
-
-        <div class="project">
-            <h2><a href="https://bridgerva.com/" target="_blank">Bridge RVA</a></h2>
-            <p>Richmond, VA Professional Film and Photo Studio Rental Space</p>
-            <p><strong>SEO Description:</strong> Bridge RVA is the premier professional film and photo studio in Richmond, Virginia. Offering state-of-the-art facilities with affordable rental rates, Bridge RVA supports photographers, videographers, and production companies with a wide range of equipment, studio space, and custom production services. Located near VCU, Bridge RVA is perfect for creating professional content, including YouTube productions, feature films, commercials, and more.</p>
-            <p><strong>Keywords:</strong> film studio rental, photo studio rental, Richmond VA, professional studio space, video production services, photography equipment rental, Cyclorama, green screen, custom set design, grip truck rental, production studio, Richmond photography studio.</p>
-        </div>
-
-        <div class="project">
-            <h2><a href="https://webp-image-optimizer.glitch.me/" target="_blank">WebP Image Optimizer</a></h2>
-            <p>Optimize your images for the web with ease!</p>
-            <p><strong>SEO Description:</strong> The WebP Image Optimizer is a powerful web app designed to help you efficiently optimize images for better website performance. With features like batch uploads, WebP conversion, space savings analysis, and previews, this tool is perfect for web developers, digital marketers, and anyone looking to speed up their website.</p>
-            <p><strong>Keywords:</strong> image optimization, WebP conversion, batch image upload, website performance, digital marketing, image compression, web development, image optimization tool, WebP format, online image optimizer.</p>
-        </div>
-
-        <div class="project">
-            <h2><a href="https://google-keyword-synergy-checker.glitch.me/" target="_blank">Google Search Phrase Keyword Synergy Analyzer</a></h2>
-            <p>Analyze keyword synergy for better SEO.</p>
-            <p><strong>SEO Description:</strong> The Google Search Phrase Keyword Synergy Analyzer is a free tool designed to help you improve your SEO by identifying common keywords across top-ranking websites. Incorporate these keywords into your content to increase your chances of ranking for your target search phrases. This essential SEO tool is accessible to everyone, breaking down economic barriers in the SEO industry.</p>
-            <p><strong>Keywords:</strong> SEO tools, keyword synergy, Google search phrases, free SEO tools, keyword analysis, content optimization, SEO ranking, search engine optimization, top-ranking keywords, accessible SEO tools.</p>
-        </div>
-
-        <!-- Add more projects here as you provide the content -->
-
+        <footer>
+            <a href="https://github.com/pgedeon">GitHub</a> · 
+            <a href="https://pgedeon.github.io">pgedeon.github.io</a>
+        </footer>
     </div>
 </body>
 </html>
